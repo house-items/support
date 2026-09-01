@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title description">
+  <title id="title">Home Stock</title>
+  <desc id="description">A blue and teal home inventory box</desc>
+  <defs>
+    <linearGradient id="background" x1="8" y1="6" x2="56" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2F7FEA"/>
+      <stop offset="1" stop-color="#15A596"/>
+    </linearGradient>
+    <linearGradient id="box" x1="19" y1="23" x2="45" y2="49" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#DDF7F3"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#background)"/>
+  <path d="M17 26.5 32 18l15 8.5v18L32 53l-15-8.5v-18Z" fill="url(#box)"/>
+  <path d="m17 26.5 15 8.7 15-8.7M32 35.2V53" fill="none" stroke="#1776C9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"/>
+  <path d="m24 22.4 15.2 8.7v7.1l-4.4-1.6-2.8 3.2v-4.6l-15-8.7L24 22.4Z" fill="#BCECE5" opacity=".92"/>
+  <path d="M42.5 14.5v7M39 18h7" stroke="#FFF" stroke-linecap="round" stroke-width="2.5"/>
+</svg>
